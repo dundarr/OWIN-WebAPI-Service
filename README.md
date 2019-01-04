@@ -179,4 +179,6 @@ Without this, you'll have problems starting the service and listening to all req
 
 If you're getting `Error 1053: The service did not respond to the start or control request in a timely fashion.` there is a good chance you don't have the right version of the .NET framework installed.  Remember: OWIN and WebAPI 2 require .NET 4.5 or a more recent version of the framework to be installed.
 
+### Help -- I'm getting Error 5 Access Denied when trying to start the service
 
+I solved this adding permissions to bin folder for "LOCAL SERVICE" windows account.
