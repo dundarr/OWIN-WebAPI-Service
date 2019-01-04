@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWINTest.Service", "OWINTest.Service\OWINTest.Service.csproj", "{040449FC-D996-49AF-BD74-D137D5688992}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A89D3C
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWINTest.Exe", "OWINTestExe\OWINTest.Exe.csproj", "{C7FC0DEE-1043-49D2-955D-81C36E00F6D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,8 +30,15 @@ Global
 		{1671F393-642C-46EA-9FA7-58F53818E724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1671F393-642C-46EA-9FA7-58F53818E724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1671F393-642C-46EA-9FA7-58F53818E724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FC0DEE-1043-49D2-955D-81C36E00F6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FC0DEE-1043-49D2-955D-81C36E00F6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FC0DEE-1043-49D2-955D-81C36E00F6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FC0DEE-1043-49D2-955D-81C36E00F6D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C602382A-654D-4062-8A7D-1A270B22B6DA}
 	EndGlobalSection
 EndGlobal
